@@ -1,0 +1,32 @@
+{
+  "name": "hello",
+  "version": "0.0.0",
+  "description": "Hello spm",
+  "keywords": [],
+  "homepage": "",
+  "author": "lichunqiang <light-li@hotmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+      "moment": "~2.10.3"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    }
+  },
+  "devDependencies": {
+    "spm": "3"
+  },
+  "scripts": {
+    "test": "spm test",
+    "build": "spm build"
+  }
+}
